@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+    --fonte-principal: "Zilla Slab", serif;
+    --fonte-secundaria: "Ms Madi", cursive;
+    --cor-bg: #F3E6D4;
+    --cor-principal: #A337A0;
+    --cor-secundária: #f8e8f7;
+}
+
+body {
+    background-color:var(--cor-bg);
+    margin-top: 8%;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.body-comando{
+    font-family: var(--fonte-secundaria);
+    font-size: 7rem;
+    color: var(--cor-principal);
+}
+
+.body-dicas{
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: var(--cor-principal);
+    text-align: center;
+    padding: 1rem;
+    
+}
+
+.body-numero {
+    background-color: var(--cor-secundária);
+    font-family: var(--fonte-secundaria);
+    font-weight: 400;
+    font-size: 5rem;
+    text-align: center;
+    color: var(--cor-principal);
+    border: 4px dotted var(--cor-principal);
+    border-radius: 10rem;
+    padding: 1rem;
+    width: 30rem;
+}
+
+.body-button {
+    display: inline-block;
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-size: 0.6rem;
+    color: var(--cor-secundária);
+    background-color: #A337A0;
+    padding: 1.4rem 1rem;
+    border: none;
+    border-radius: 100%;
+    margin: 1rem;
+}
+
+.body-button:hover{
+    background-color: var(--cor-secundária);
+    color: var(--cor-principal);
+}
+
+.body-certo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.certo-titulo {
+    font-family: var(--fonte-secundaria);
+    font-size: 5rem;
+    color: var(--cor-principal);
+}
+
+.certo-subtitulo {
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+    color: var(--cor-principal);
+}
